@@ -442,7 +442,7 @@ p {
   }
 
   main {
-    padding-top: 74px;
+    padding-top: 56px;
   }
 
   .site-nav {
@@ -450,8 +450,22 @@ p {
     padding-inline: 10px;
   }
 
-  .hero-text p {
+  .section {
     margin-top: 56px;
+  }
+
+  .about-section,
+  .heatpump-section {
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+
+  #galleri {
+    margin-top: 56px;
+  }
+
+  .hero-text p {
+    margin-top: 40px;
   }
 
   .gallery-grid {
