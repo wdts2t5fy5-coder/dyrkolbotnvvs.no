@@ -387,7 +387,7 @@ p {
 
   .site-nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 0;
   }
 
@@ -415,6 +415,14 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .about-text {
+    order: 1;
+  }
+
+  .about-media {
+    order: 2;
+  }
+
   .heatpump-section {
     grid-template-columns: 1fr;
   }
@@ -434,11 +442,12 @@ p {
   }
 
   main {
-    padding-top: 52px;
+    padding-top: 74px;
   }
 
   .site-nav {
     gap: 0;
+    padding-inline: 10px;
   }
 
   .hero-text p {
