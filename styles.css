@@ -387,7 +387,8 @@ p {
 
   .site-nav {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 0;
   }
 
   .footer-layout {
@@ -407,7 +408,7 @@ p {
 
   .hero {
     grid-template-columns: 1fr;
-    gap: 44px;
+    gap: 28px;
   }
 
   .about-section {
@@ -433,11 +434,11 @@ p {
   }
 
   main {
-    padding-top: 38px;
+    padding-top: 52px;
   }
 
   .site-nav {
-    gap: 12px;
+    gap: 0;
   }
 
   .hero-text p {
