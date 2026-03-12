@@ -446,6 +446,10 @@ p {
     padding-top: 112px;
   }
 
+  .hero {
+    gap: 40px;
+  }
+
   .site-nav {
     gap: 0;
     padding-inline: 10px;
