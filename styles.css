@@ -354,6 +354,7 @@ p {
   text-align: right;
   display: grid;
   gap: 2px;
+  font-weight: 400;
 }
 
 .site-footer-contact a {

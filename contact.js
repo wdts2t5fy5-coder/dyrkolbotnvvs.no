@@ -18,7 +18,13 @@ if (form && helpText) {
     const email = data.get("email")?.toString().trim() || "";
     const phone = data.get("phone")?.toString().trim() || "";
     const subject = data.get("subject")?.toString().trim() || "Ny henvendelse";
-    const message = data.get("message")?.toString().trim() || "";
+    let message = data.get("message")?.toString().trim() || "";
+    const limit = 200;
+    const words = message.split(/\s+/).filter(Boolean);
+    if (words.length > limit) {
+      message = words.slice(0, limit).join(" ");
+      helpText.textContent = `Beskrivelsen ble kortet ned til ${limit} ord.`;
+    }
 
     const body = [
       `Navn: ${name}`,
