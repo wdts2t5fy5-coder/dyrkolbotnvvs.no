@@ -428,10 +428,11 @@ p {
     line-height: 1.4;
   }
 
-  .site-footer-crafted {
+  /* må være .site-footer p... for å slå .site-footer p { margin: 0 } */
+  .site-footer p.site-footer-crafted {
     justify-self: center;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 30px;
     font-size: 11px;
   }
 
