@@ -486,3 +486,7 @@ p {
     --carousel-visible: 1;
   }
 }
+
+.studio-merke { display: block; width: 56px; margin: 0 auto 8px; opacity: 0.55; transition: opacity 0.18s ease; }
+.studio-merke:hover { opacity: 1; }
+.studio-merke img { width: 100%; height: auto; display: block; }
